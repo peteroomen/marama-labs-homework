@@ -10,7 +10,7 @@ export default function TreeViewItem(props: ITreeViewItemProps) {
     const [expanded, setExpanded] = useState<boolean>(false);
 
     const data = props.data;
-    const itemClasses = "flex flex-row gap-1 p-1 items-center cursor-pointer rounded transition-all";
+    const itemClasses = "flex flex-row gap-1 p-1 items-center  cursor-pointer rounded transition-all";
 
     return (
         <div className="flex flex-col gap-1 items-start" key={data.id}>
